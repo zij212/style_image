@@ -4,8 +4,9 @@
 
 Below are the styles implemented in this repo.
 
-| style | original | transformed color | transformed black & white  
-|---|---|---|---|
-| upsampling | <img src="https://github.com/zij212/style_image/blob/main/daisy_square.jpg" alt="" width="200"/>  | <img src="https://github.com/zij212/style_image/blob/main/daisy_square_apply_upsampling_color.jpg" alt="" width="200"/>  |  <img src="https://github.com/zij212/style_image/blob/main/daisy_square_apply_upsampling_bnw.jpg" alt="" width="200"/> |
+| style | original | transformed |
+|---|---|---|
+| upsampling | <img src="https://github.com/zij212/style_image/blob/main/daisy_square.jpg" alt="" width="200"/>  | <img src="https://github.com/zij212/style_image/blob/main/daisy_square_apply_upsampling_color.jpg" alt="" width="200"/>  | 
+| downsampling | <img src="https://github.com/zij212/style_image/blob/main/daisy_square.jpg" alt="" width="200"/>  | <img src="https://github.com/zij212/style_image/blob/a360cbd01a15b07276b05baba7135aad78318dba/daisy_square_apply_downsampling_color.jpg" alt="" width="200"/>  | 
 
 
