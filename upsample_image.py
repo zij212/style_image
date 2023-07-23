@@ -1,6 +1,8 @@
 from PIL import Image
 import numpy as np
 
+from utils import load_image
+
 
 def apply_1d_upsampling(image_array, num_ribbons, orientation="vertical", repeat=2):
     """
@@ -57,26 +59,9 @@ def apply_upsampling(img_array, num_ribbons=10, repeat=2):
     return img_array
 
 
-def load_image(file_dir, color=True):
-    """
-    Load jpeg image into numpy array
-
-    :param file_dir: location of the image file
-    :param color: boolean, load the image as color or 3 channel black and white image
-    :return: np.array
-    """
-
-    if color:
-        img_array = np.array(Image.open(file_dir))
-    else:
-        img_array = np.array(Image.open(file_dir).convert('L').convert('RGB'))
-
-    return img_array.astype(np.uint8)
-
-
 if __name__ == "__main__":
 
-    fname = "daisy_squre.jpg"
+    fname = "daisy_square.jpg"
     img = load_image(fname, color=True)
 
     transform = apply_upsampling
